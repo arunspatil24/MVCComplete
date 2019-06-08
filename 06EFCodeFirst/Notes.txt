@@ -1,0 +1,12 @@
+﻿1.Add Entity Framework from nugute package
+2.Add Connection String in Web.Config After Config section
+3.Add DbContext Class in Models Folder
+4.Add the Model(POCO) class in models folder
+5.Add Model Property in DBContext Class
+
+
+
+EF Code First Migration Commands
+1.Enable Migrations		--Execute only once
+2.Add-Migration name	--Execute whenever the model changes
+3.Update-Database		--Execute whenever the model changes

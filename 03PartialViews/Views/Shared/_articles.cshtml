@@ -1,0 +1,8 @@
+﻿@model IEnumerable<string>
+<h4>Top Articles of the week are</h4>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li><a href="#">@item</a></li>
+    }
+</ul>

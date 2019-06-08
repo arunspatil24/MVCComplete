@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CalculateInterest</title>
+</head>
+<body>
+    <div> 
+        <form action="/home/CalculateInterest" method="post">
+            <label>Princple Amount</label>
+            <input type="number" name="pm" />
+            <br />
+            <label>Rate Of Interset </label>
+            <input type="number" name="roi" />
+            <br />
+            <label>Time Period</label>
+            <input type="number" name="tp" />
+            <br />
+            <input type="submit"/>
+        </form>
+        <h1> The Simple Interset of the given Vaules is : @Model</h1>
+    </div>
+</body>
+</html>

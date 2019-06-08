@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Addition</title>
+</head>
+<body>
+    <div> 
+        <form action="/home/addition" method="post">
+            <label>Enter the First Number</label>
+            <input type="number" name="n1" />
+            <br />
+            <label>Enter the Second Number</label>
+            <input type="number" name="n2" />
+            <br />
+            <input type="submit" value="Add"/>
+        </form>
+        <h1> The Sum of Two numbers is : @Model</h1>
+    </div>
+</body>
+</html>
